@@ -1,0 +1,57 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "RIciudrSmugMWIFNWsNIN3qQIYY",
+  "nextPageToken": "EAAaHlBUOkNBb2lFRFV4T1RSRVFUWXpRa05DUVRFMk16RQ",
+  "prevPageToken": "EAEaHlBUOkNBVWlFRGxET1VaR01FWXhRVVJCT1VNNFFUVQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "aC4qYp8NriuABMCc3v_NzxNYkbU",
+      "id": "item-24vid00000005",
+      "contentDetails": {
+        "videoId": "vid00000005",
+        "videoPublishedAt": "2026-09-04T19:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "KbLNum74lNIFZ8yqePL6Zca8z6c",
+      "id": "item-24vid00000006",
+      "contentDetails": {
+        "videoId": "vid00000006",
+        "videoPublishedAt": "2026-09-01T23:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8Afg4QJ3zvX605HLVYL702wlBlI",
+      "id": "item-24vid00000007",
+      "contentDetails": {
+        "videoId": "vid00000007",
+        "videoPublishedAt": "2026-09-01T17:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UiDHrHlvTyIOpOyk-st4GGgk5NM",
+      "id": "item-24vid00000008",
+      "contentDetails": {
+        "videoId": "vid00000008",
+        "videoPublishedAt": "2026-09-01T15:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "8zU8BdPYz96G3XE-2wzJpnls3VY",
+      "id": "item-24vid00000009",
+      "contentDetails": {
+        "videoId": "vid00000009",
+        "videoPublishedAt": "2026-08-27T01:00:08Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 6097,
+    "resultsPerPage": 5
+  }
+}

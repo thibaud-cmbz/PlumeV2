@@ -44,6 +44,13 @@ def test_server_error_then_success_is_retried() -> None:
     assert len(calls) == 2
 
 
+def test_rate_limit_then_success_is_retried() -> None:
+    transport, calls = scripted([429, 200])
+
+    assert client_for(transport).get(URL).status_code == 200
+    assert len(calls) == 2
+
+
 def test_persistent_server_error_returns_last_response() -> None:
     transport, calls = scripted([500, 502, 503])
 
