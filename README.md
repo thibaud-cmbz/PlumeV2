@@ -9,6 +9,7 @@ Prérequis : [uv](https://docs.astral.sh/uv/) et Docker (tests d'intégration un
 ```sh
 uv sync
 docker compose up -d   # PostgreSQL 17 + pgvector sur localhost:5432
+uv run alembic upgrade head
 ```
 
 ## Commandes
@@ -20,6 +21,7 @@ uv run mypy .                             # typage strict
 uv run lint-imports                       # dépendances entre paquets
 uv run pytest -m unit                     # tests unitaires, sans Docker
 uv run pytest -m integration              # tests d'intégration, avec docker compose
+uv run alembic revision --autogenerate -m "…"  # nouvelle migration (relire avant commit)
 uv run python scripts/check_niche_terms.py  # aucun terme de niche hors de fixtures/
 ```
 
@@ -30,6 +32,7 @@ Configuration par variables d'environnement préfixées `PLUME_` (ex. `PLUME_DAT
 ```
 packages/
   core/       modèles, accès base, configuration, client HTTP   (plume_core)
+              models.py, schemas.py (contrats JSON), migrations/ (Alembic)
   sources/    clients des sources externes          → core      (plume_sources)
   collector/  planificateur et tâches de collecte   → core, sources
   discovery/  sujets, scores, recommandations       → core
