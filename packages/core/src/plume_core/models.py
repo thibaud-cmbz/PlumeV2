@@ -139,6 +139,8 @@ class ProfileSeedTerm(Base):
     profile_id: Mapped[UUID] = _fk("channel_profile.id", primary_key=True)
     term: Mapped[str] = mapped_column(Text, primary_key=True)
     weight: Mapped[float] = mapped_column(Float)
+    # Article fr.wikipedia associé au terme, fourni par le profil (jamais deviné).
+    wikipedia_title: Mapped[str | None] = mapped_column(Text)
 
 
 class ProfileTrackedChannel(Base):

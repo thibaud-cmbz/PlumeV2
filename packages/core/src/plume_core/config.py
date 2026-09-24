@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from pydantic import PostgresDsn, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -11,6 +13,13 @@ class Settings(BaseSettings):
     youtube_retention_days: int = 30
     # Part des 10 000 unités quotidiennes que Plume s'autorise.
     youtube_daily_quota_budget: int = 7000
+    # Wikimedia exige un User-Agent identifiant un contact : « Plume/<version> (<contact>) ».
+    wikimedia_contact: str | None = None
+    wikipedia_request_budget: int = 500
+    # EXPÉRIMENTAL : extraction non officielle de Google Trends, désactivable ici.
+    trends_enabled: bool = True
+    trends_request_budget: int = 50
+    demand_cache_dir: Path = Path(".cache/plume")
 
     @property
     def sqlalchemy_url(self) -> str:

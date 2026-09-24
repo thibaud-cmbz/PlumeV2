@@ -27,6 +27,21 @@ uv run python scripts/check_niche_terms.py  # aucun terme de niche hors de fixtu
 
 Configuration par variables d'environnement préfixées `PLUME_` (ex. `PLUME_DATABASE_URL`).
 
+## Sources de demande
+
+- **Wikipedia** (`plume_sources.wikipedia`) : pages vues quotidiennes des articles fr.wikipedia
+  (`all-access`, agent `user`). `PLUME_WIKIMEDIA_CONTACT` est obligatoire (User-Agent
+  « Plume/<version> (<contact>) »). Requêtes en série, réponses en cache pour la journée dans
+  `PLUME_DEMAND_CACHE_DIR`. Les titres d'articles viennent de `profile_seed_term.wikipedia_title`.
+- **Google Trends** (`plume_sources.trends`) : **expérimental**, extraction non officielle,
+  région France, désactivable par `PLUME_TRENDS_ENABLED=false`. Trends donne un **indice relatif
+  de 0 à 100**, normalisé par requête (par terme et par fenêtre de 90 jours), **pas un volume** de
+  recherches : deux termes ou deux fenêtres ne se comparent pas directement.
+
+Chaque source a un budget de requêtes par passage (`PLUME_*_REQUEST_BUDGET`). Une panne d'une
+source passe sa `collection_run` en échec sans toucher aux autres. Les observations sont
+append-only : une valeur révisée ajoute une ligne, l'ancienne reste.
+
 ## Structure
 
 ```
