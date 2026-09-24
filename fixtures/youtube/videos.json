@@ -1,0 +1,1095 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "aj54hr0NmjoCJag70Y-atAinPqg",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "CKZPsHqOueVmBLunzd37Kj9170U",
+      "id": "vid00000000",
+      "snippet": {
+        "publishedAt": "2026-09-22T23:00:10Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "uhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M27S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "27755",
+        "likeCount": "289",
+        "favoriteCount": "0",
+        "commentCount": "15"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000000\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "1920"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "OPyx0nP5Ocsxhf_nHLzb28LL77o",
+      "id": "vid00000001",
+      "snippet": {
+        "publishedAt": "2026-09-21T23:00:36Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "uhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "20402",
+        "likeCount": "199",
+        "favoriteCount": "0",
+        "commentCount": "16"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000001\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "1920"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "j4W9lI4wEPpYcHzJLsPSWmyKhdA",
+      "id": "vid00000002",
+      "snippet": {
+        "publishedAt": "2026-09-15T19:00:17Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M32S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "3776",
+        "likeCount": "104",
+        "favoriteCount": "0",
+        "commentCount": "7"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000002\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1nSoVX7xmk9e-94u9qvegUIHlPg",
+      "id": "vid00000003",
+      "snippet": {
+        "publishedAt": "2026-09-15T17:04:04Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "uhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT7M17S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "42461",
+        "likeCount": "478",
+        "favoriteCount": "0",
+        "commentCount": "66"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000003\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "1920"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "NJ4Rw4Mze7VQjkaBPq7RuSA517Q",
+      "id": "vid00000004",
+      "snippet": {
+        "publishedAt": "2026-09-11T19:30:14Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT48S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "4695",
+        "likeCount": "65",
+        "favoriteCount": "0",
+        "commentCount": "6"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000004\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "2gGNjJ4g93NPSFSJVnx7p3OsoUc",
+      "id": "vid00000005",
+      "snippet": {
+        "publishedAt": "2026-09-04T19:00:35Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "uhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "20793",
+        "likeCount": "195",
+        "favoriteCount": "0",
+        "commentCount": "27"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000005\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "1920"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "oJ0HUvLXLyKy2b1DGdO-as6rDsM",
+      "id": "vid00000006",
+      "snippet": {
+        "publishedAt": "2026-09-01T23:00:14Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M31S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "4521",
+        "likeCount": "132",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000006\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "TqHkNsaim9Y1a66CwYZ35Vz1ZMY",
+      "id": "vid00000007",
+      "snippet": {
+        "publishedAt": "2026-09-01T17:00:12Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "uhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "15342",
+        "likeCount": "148",
+        "favoriteCount": "0",
+        "commentCount": "10"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000007\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "1920"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "8Yij2VBzCGg2HbbRmftDGz5i8IM",
+      "id": "vid00000008",
+      "snippet": {
+        "publishedAt": "2026-09-01T15:00:31Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT26M47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "22721",
+        "likeCount": "236",
+        "favoriteCount": "0",
+        "commentCount": "35"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000008\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "1920"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "2hpVx43_HD2UNEKz7-4golnkiWk",
+      "id": "vid00000009",
+      "snippet": {
+        "publishedAt": "2026-08-27T01:00:08Z",
+        "channelId": "UC0000000000000000000000",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "tags": [
+          "mot-clé"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M44S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "8666",
+        "likeCount": "211",
+        "favoriteCount": "0",
+        "commentCount": "9"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000009\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ObDgGOw4fCCNYuGpQ4jZGYPiGYE",
+      "id": "vid00000010",
+      "snippet": {
+        "publishedAt": "2026-09-22T19:09:05Z",
+        "channelId": "UC0000000000000000000001",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "qhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT53S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "26494",
+        "likeCount": "429",
+        "favoriteCount": "0",
+        "commentCount": "173"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000010\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Ri7KzSOmyZu4m9ulyYPrc3QK6qQ",
+      "id": "vid00000011",
+      "snippet": {
+        "publishedAt": "2026-09-21T14:49:02Z",
+        "channelId": "UC0000000000000000000001",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "39137",
+        "likeCount": "545",
+        "favoriteCount": "0",
+        "commentCount": "166"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000011\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Ig9o-zyMy8TtCRKtpixHKZkvths",
+      "id": "vid00000012",
+      "snippet": {
+        "publishedAt": "2026-09-20T17:00:38Z",
+        "channelId": "UC0000000000000000000001",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT29S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "96864",
+        "likeCount": "880",
+        "favoriteCount": "0",
+        "commentCount": "206"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000012\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "uRUQwpvby1qYeAGVwlnZal4XwXA",
+      "id": "vid00000013",
+      "snippet": {
+        "publishedAt": "2026-09-19T16:00:27Z",
+        "channelId": "UC0000000000000000000001",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "fhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT30S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "68759",
+        "likeCount": "570",
+        "favoriteCount": "0",
+        "commentCount": "292"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000013\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "YtPhal1qopuExI9i-Xq2zNpfCFk",
+      "id": "vid00000014",
+      "snippet": {
+        "publishedAt": "2026-09-18T14:00:25Z",
+        "channelId": "UC0000000000000000000001",
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "qhd": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 2560,
+            "height": 1440
+          }
+        },
+        "channelTitle": "Titre anonymisé",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT17S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "86291",
+        "likeCount": "1086",
+        "favoriteCount": "0",
+        "commentCount": "313"
+      },
+      "player": {
+        "embedHtml": "<iframe width=\"608\" height=\"1080\" src=\"https://www.youtube.com/embed/vid00000014\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "embedHeight": "1080",
+        "embedWidth": "608"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 15,
+    "resultsPerPage": 15
+  }
+}

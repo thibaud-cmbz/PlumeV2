@@ -1,4 +1,4 @@
-"""Client HTTP partagé : timeouts explicites et rejeu sur erreurs réseau et 5xx."""
+"""Client HTTP partagé : timeouts explicites et rejeu sur erreurs réseau, 429 et 5xx."""
 
 import httpx
 from tenacity import (
@@ -18,8 +18,8 @@ DEFAULT_WAIT = wait_exponential(multiplier=0.5, max=10)
 IDEMPOTENT_METHODS = frozenset({"GET", "HEAD", "OPTIONS", "PUT", "DELETE"})
 
 
-def _is_server_error(response: httpx.Response) -> bool:
-    return response.status_code >= 500
+def _is_retryable_status(response: httpx.Response) -> bool:
+    return response.status_code >= 500 or response.status_code == 429
 
 
 def _close_discarded_response(state: RetryCallState) -> None:
@@ -46,7 +46,8 @@ class RetryTransport(httpx.BaseTransport):
         retrying = Retrying(
             stop=stop_after_attempt(self._attempts),
             wait=self._wait,
-            retry=retry_if_exception_type(httpx.TransportError) | retry_if_result(_is_server_error),
+            retry=retry_if_exception_type(httpx.TransportError)
+            | retry_if_result(_is_retryable_status),
             before_sleep=_close_discarded_response,
             retry_error_callback=_last_outcome,
         )

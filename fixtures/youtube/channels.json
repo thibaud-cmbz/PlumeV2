@@ -1,0 +1,89 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "MnxJbr8YxgbRX8asgQG_7Y2MT-8",
+  "pageInfo": {
+    "totalResults": 2,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "M8_0QNjJ6uwv1M_QqTfMc51bD_8",
+      "id": "UC0000000000000000000000",
+      "snippet": {
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "customUrl": "@chaine",
+        "publishedAt": "2007-08-23T00:34:43Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU0000000000000000000000"
+        }
+      }
+    },
+    {
+      "kind": "youtube#channel",
+      "etag": "WsW4gCmNOFeDWSm--WSnVrYJ_BM",
+      "id": "UC0000000000000000000001",
+      "snippet": {
+        "title": "Titre anonymisé",
+        "description": "Description anonymisée.",
+        "customUrl": "@chaine",
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://example.invalid/image.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Titre anonymisé",
+          "description": "Description anonymisée."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU0000000000000000000001"
+        }
+      }
+    }
+  ]
+}
