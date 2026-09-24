@@ -1,0 +1,11 @@
+# Termes de niche interdits hors de fixtures/ (un par ligne, insensible à la casse).
+aviation
+avion
+avions
+aircraft
+airline
+rail
+railway
+train
+trains
+tech

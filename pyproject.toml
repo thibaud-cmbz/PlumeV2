@@ -1,0 +1,83 @@
+[project]
+name = "plume"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["plume-core", "plume-sources", "plume-collector", "plume-discovery", "plume-api"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8",
+    "mypy>=1.13",
+    "pytest>=8.3",
+    "import-linter>=2.1",
+    "psycopg[binary]>=3.2",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[tool.uv.sources]
+plume-core = { workspace = true }
+plume-sources = { workspace = true }
+plume-collector = { workspace = true }
+plume-discovery = { workspace = true }
+plume-api = { workspace = true }
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = "scripts"
+exclude = ['^\.venv/']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
+addopts = "--strict-markers --import-mode=importlib"
+markers = [
+    "unit: tests rapides, sans service externe",
+    "integration: tests nécessitant PostgreSQL (docker compose up -d)",
+]
+
+[tool.importlinter]
+root_packages = ["plume_core", "plume_sources", "plume_collector", "plume_discovery", "plume_api"]
+
+[[tool.importlinter.contracts]]
+name = "core ne dépend d'aucun autre paquet"
+type = "forbidden"
+source_modules = ["plume_core"]
+forbidden_modules = ["plume_sources", "plume_collector", "plume_discovery", "plume_api"]
+
+[[tool.importlinter.contracts]]
+name = "sources ne dépend que de core"
+type = "forbidden"
+source_modules = ["plume_sources"]
+forbidden_modules = ["plume_collector", "plume_discovery", "plume_api"]
+
+[[tool.importlinter.contracts]]
+name = "collector ne dépend que de core et sources"
+type = "forbidden"
+source_modules = ["plume_collector"]
+forbidden_modules = ["plume_discovery", "plume_api"]
+
+[[tool.importlinter.contracts]]
+name = "discovery ne dépend que de core"
+type = "forbidden"
+source_modules = ["plume_discovery"]
+forbidden_modules = ["plume_sources", "plume_collector", "plume_api"]
+
+[[tool.importlinter.contracts]]
+name = "api ne dépend que de core"
+type = "forbidden"
+source_modules = ["plume_api"]
+forbidden_modules = ["plume_sources", "plume_collector", "plume_discovery"]
