@@ -81,3 +81,6 @@ name = "api ne dépend que de core"
 type = "forbidden"
 source_modules = ["plume_api"]
 forbidden_modules = ["plume_sources", "plume_collector", "plume_discovery"]
+
+[tool.alembic]
+script_location = "%(here)s/packages/core/src/plume_core/migrations"
