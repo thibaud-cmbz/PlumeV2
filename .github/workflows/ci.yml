@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    name: ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: format
+            run: uv run ruff format --check .
+          - name: lint
+            run: uv run ruff check .
+          - name: mypy
+            run: uv run mypy .
+          - name: import-linter
+            run: uv run lint-imports
+          - name: unit-tests
+            run: uv run pytest -m unit
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: ${{ matrix.run }}
+
+  integration-tests:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_USER: plume
+          POSTGRES_PASSWORD: plume
+          POSTGRES_DB: plume
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U plume -d plume"
+          --health-interval 2s
+          --health-timeout 5s
+          --health-retries 15
+    env:
+      PLUME_DATABASE_URL: postgresql://plume:plume@localhost:5432/plume
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run pytest -m integration
+
+  niche-terms:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check_niche_terms.py
