@@ -84,3 +84,11 @@ forbidden_modules = ["plume_sources", "plume_collector", "plume_discovery"]
 
 [tool.alembic]
 script_location = "%(here)s/packages/core/src/plume_core/migrations"
+
+[[tool.importlinter.contracts]]
+name = "discovery ne lit les tables que via core.asof"
+type = "forbidden"
+source_modules = ["plume_discovery"]
+forbidden_modules = ["plume_core.models"]
+# discovery → core.asof → core.models reste autorisé.
+allow_indirect_imports = true
